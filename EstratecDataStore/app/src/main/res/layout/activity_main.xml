@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:background="@drawable/head_and"
+        tools:ignore="MissingConstraints">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linearDashboard"
+        >
+
+        <RelativeLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:text="@string/inicio"
+                android:textSize="30sp"
+                android:textColor="@color/colorWhite"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <GridLayout
+            android:columnCount="2"
+            android:rowCount="3"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/colorLayerSemiDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:background="@drawable/sincroniza"
+                        android:layout_width="88dp"
+                        android:layout_height="88dp"
+                        android:id="@+id/btnSincronizar"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="12dp"
+                        android:textColor="@color/colorLayerDark"
+                        android:textSize="18sp"
+                        android:text="Obtener"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+
+                    <TextView
+                        android:textColor="@color/colorLayerDark"
+                        android:textSize="18sp"
+                        android:text="Series"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/colorLayerSemiDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+            >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:background="@drawable/impresoras"
+                        android:layout_width="88dp"
+                        android:layout_height="88dp"
+                        android:id="@+id/seriesPendientes"
+                    />
+
+                    <TextView
+                        android:layout_marginTop="12dp"
+                        android:textColor="@color/colorLayerDark"
+                        android:textSize="18sp"
+                        android:text="@string/impresoras_pendiente"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                    />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/colorLayerSemiDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:background="@drawable/lista_series"
+                        android:layout_width="88dp"
+                        android:layout_height="88dp"
+                        android:id="@+id/historialCompletos"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="12dp"
+                        android:textColor="@color/colorLayerDark"
+                        android:textSize="18sp"
+                        android:text="@string/lista_completos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/colorLayerSemiDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:background="@drawable/upload"
+                        android:layout_width="88dp"
+                        android:layout_height="88dp"
+                        android:id="@+id/btnGuardarGodaddy"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="12dp"
+                        android:textColor="@color/colorLayerDark"
+                        android:textSize="18sp"
+                        android:text="@string/EnviarCompletos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+
+                    <TextView
+                        android:textColor="@color/colorLayerDark"
+                        android:textSize="18sp"
+                        android:text="el servidor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/idTecnico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@drawable/head_and_bottom"
+        app:layout_constraintBottom_toBottomOf="@id/linearDashboard"
+        android:gravity="bottom"
+        tools:ignore="MissingConstraints">
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="btn_iniciar_sesion">#0d47a1</color>
+    <color name="btn_salir_sesion">#000000</color>
+    <color name="btn_sincronizar">#006064</color>
+    <color name="btn_mostrar_manuales">#00363a</color>
+    <color name="btn_ver_manual"> #b4004e</color>
+
+    <color name="colorSnackBar">#E61414</color>
+    <color name="colorSnackBarError">#212121</color>
+
+    <color name="colorLog">#131EEA</color>
+    <color name="colorLog2">#F13413</color>
+    <color name="colorLayerDark">#D6000000</color>
+    <color name="colorLayerSemiDark">#6000</color>
+    <color name="colorWhite">#FFFF</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextHint">#808080</color>
+
+    <color name="pink_btn_tomar_foto_fua">#fe104d</color>
+</resources>

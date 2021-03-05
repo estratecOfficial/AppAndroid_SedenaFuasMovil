@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Estratec Data Store</string>
+    <string name="textView_bienvenida">Bienvenido</string>
+
+    <!-- Seccion String Interfaz de Login-->
+    <string name="editText_hint_usuario">Usuario</string>
+    <string name="editText_hint_password">Password</string>
+    <string name="textView_inicia_sesion">Iniciar Sesión</string>
+    <string name="btn_iniciar_sesion">INICIAR</string>
+    <string name="btn_salir_sesion">SALIR</string>
+    <string-array name="TipoUsuario">
+        <item>Selecciona un tipo de usuario</item>
+        <item>Tecnico</item>
+    </string-array>
+
+    <!-- Seccion String Interfaz de sincronizacion-->
+    <string name="textView_sincroniza">Sincroniza tus manuales asignados desde esta sección</string>
+    <string name="btn_sincronizar">SINCRONIZAR</string>
+    <string name="btn_mostrar_manuales">VER MIS MANUALES</string>
+
+    <string name="inicio">INICIO</string>
+
+    <string name="historial">Historial</string>
+    <string name="sincronizar">Sincronizar</string>
+
+    <string name="impresoras_pendiente">Pendientes</string>
+    <string name="EnviarCompletos">Guardar en</string>
+    <string name="lista_completos">Completos</string>
+
+    <string name="btn_editar_datos">Editar</string>
+    <string name="btn_fua">PDF</string>
+    <string name="btn_guardar">Evidencias</string>
+
+    <string name="btn_tomar_foto_fua">FUA</string>
+    <string name="btn_tomar_foto_contador">CONTADOR</string>
+    <string name="btn_subir_fotos_fuas_server">GUARDAR LOCALMENTE</string>
+    <string name="consejo_evidencia">Recuerda esta sección solo guarda los datos localmente, si deseas que tu supervisor visualice los datos tendras que Guardar en el Servidor (con Conexión a Internet)</string>
+
+    <string name="permission_camera">Permiso de Camara necesario.</string>
+    <string name="permission_write_storage">Permiso de escritura/lectura necesario.</string>
+    <string name="settings">Configuración</string>
+    <string name="texto_evidencias">Carga de Evidencias</string>
+
+
+
+</resources>

@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="DATOS DEL USUARIO"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Cliente"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/ClienteNombre"
+                android:editable="false"
+                android:background="@drawable/edittext_style"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Nombre y Rango"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/NombreRango"
+                android:hint="EJEM: JUAN GONZALES | GENERAL"
+                android:inputType="textCapWords|textAutoCorrect"
+                android:background="@drawable/edittext_style"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Matricula"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/Matricula"
+                android:background="@drawable/edittext_style"
+                android:inputType="textCapCharacters"
+                android:hint="EJEM: D-0000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Domicilio"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/Domicilio"
+                android:background="@drawable/edittext_style"
+                android:editable="false"
+                android:hint="EJEM: AV REVOLUCIÓN"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Zona Militar"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/ZonaMiliar"
+                android:background="@drawable/edittext_style"
+                android:inputType="textCapCharacters"
+                android:hint="EJEM: MORELOS"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Región Militar"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/RegionMilitar"
+                android:editable="false"
+                android:background="@drawable/edittext_style"
+                android:hint="EJEM: VII"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Batallón"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/Batallon"
+                android:background="@drawable/edittext_style"
+                android:inputType="textCapWords"
+                android:hint="EJEM: 13/o Regimiento"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Área"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/Area"
+                android:background="@drawable/edittext_style"
+                android:inputType="textCapWords|textAutoCorrect"
+                android:hint="EJEM: Archivo"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Piso"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/Piso"
+                android:background="@drawable/edittext_style"
+                android:hint="EJEM: 2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Teléfono"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/Telefono"
+                android:background="@drawable/edittext_style"
+                android:hint="EJEM: 952252525"
+                android:inputType="number"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Extensión"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/Extension"
+                android:background="@drawable/edittext_style"
+                android:hint="EJEM: 22"
+                android:inputType="number"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Extensión Satelital"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/ExtensionSatelital"
+                android:background="@drawable/edittext_style"
+                android:hint="EJEM: 11"
+                android:inputType="number"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="DATOS DEL EQUIPO QUE SE ENTREGA"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textSize="15dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tipo"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:editable="false"
+                android:gravity="left"
+                android:background="@drawable/edittext_style"
+                android:id="@+id/tipoEquipoLetra"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Modelo"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:editable="false"
+                android:gravity="left"
+                android:background="@drawable/edittext_style"
+                android:id="@+id/ModeloActual"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Número de serie"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:editable="false"
+                android:gravity="left"
+                android:background="@drawable/edittext_style"
+                android:id="@+id/SerieActual"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Contador"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/Contador"
+                android:background="@drawable/edittext_style"
+                android:hint="EJEM: 250"
+                android:inputType="number"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Serie Supresor de Picos"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/SerieSupresor"
+                android:background="@drawable/edittext_style"
+                android:inputType="textCapCharacters"
+                android:hint="EJEM: 52252"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Observaciones"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/Observaciones"
+                android:background="@drawable/edittext_style"
+                android:hint="EJEM: La maquina funciona"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="GUARDAR"
+                android:textSize="20dp"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/btn_iniciar_sesion_style"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/BotonGuardarCambios"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Toner"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:visibility="invisible"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:editable="false"
+                android:gravity="left"
+                android:visibility="invisible"
+                android:background="@drawable/edittext_style"
+                android:id="@+id/toner_actual"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

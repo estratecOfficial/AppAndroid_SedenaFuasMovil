@@ -1,0 +1,10 @@
+Password Key store path: @Estratec12345%@
+Alias: EstratecDataStore
+Password Alias: Estratec12345%
+Validity (years): 25 años
+First and Last Name: Uriel Vallejo
+Organizational Unit: Estratec
+Organization: Grupo Estratec
+City or Locality: Mexico
+Satate or Province: CDMX
+Country Code(XX): MX
