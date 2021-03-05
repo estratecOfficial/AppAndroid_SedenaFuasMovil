@@ -1,2 +1,2 @@
-# AppAndroid_SedenaFuasMovil
-AppAndroid_SedenaFuasMovil aplicacion android para fuas sedena 2021
+# AppAndroid_EstratecDataStore_Movil
+AppAndroid_EstratecDataStore_Movil aplicacion android para fuas sedena 2021
