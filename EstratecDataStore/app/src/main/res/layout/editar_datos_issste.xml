@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="DATOS DEL USUARIO"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Cliente"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/ClienteNombreISSSTE"
+                android:editable="false"
+                android:background="@drawable/edittext_block"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Nombre del usuario"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/NombreUsuarioISSSTE"
+                android:hint="EJEM: JUAN CASTRO MORALES"
+                android:inputType="textCapWords|textAutoCorrect"
+                android:background="@drawable/edittext_style"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Puesto"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/PuestoISSSTE"
+                android:background="@drawable/edittext_style"
+                android:inputType="textCapWords|textAutoCorrect"
+                android:hint="EJEM: JEFE DE OFICINA"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="No. de Empleado"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/NoEmpleadoISSSTE"
+                android:background="@drawable/edittext_style"
+                android:inputType="textCapWords|textAutoCorrect"
+                android:hint="EJEM: 20052"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Email"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/EmailISSSTE"
+                android:background="@drawable/edittext_style"
+                android:inputType="textEmailAddress"
+                android:hint="EJEM: usuario@issste.gob.mx"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="No. de Red"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/NoRedISSSTE"
+                android:background="@drawable/edittext_style"
+                android:inputType="textCapCharacters"
+                android:hint="EJEM: 20"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="DATOS DE LA UBICACIÓN"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textSize="15dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ID Unidad Administrativa"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/idUnidadISSSTE"
+                android:editable="false"
+                android:background="@drawable/edittext_block"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Unidad Administrativa"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/UnidadAdminISSSTE"
+                android:editable="false"
+                android:background="@drawable/edittext_block"
+            />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Área de Adscripción"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/AreaAdsISSSTE"
+                android:background="@drawable/edittext_block"
+                android:editable="false"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Nombre del enlace"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/NombreEnlaceISSSTE"
+                android:background="@drawable/edittext_block"
+                android:editable="false"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Calle y Número"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/CalleISSSTE"
+                android:background="@drawable/edittext_block"
+                android:editable="false"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Piso"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/PisoISSSTE"
+                android:background="@drawable/edittext_block"
+                android:editable="false"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Colonia"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/ColoniaISSSTE"
+                android:background="@drawable/edittext_block"
+                android:editable="false"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="CP"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/CPISSSTE"
+                android:background="@drawable/edittext_block"
+                android:editable="false"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ciudad"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/CiudadISSSTE"
+                android:background="@drawable/edittext_block"
+                android:editable="false"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Estado"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/EstadoISSSTE"
+                android:background="@drawable/edittext_block"
+                android:editable="false"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="DATOS DEL EQUIPO QUE SE ENTREGA"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textSize="15dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tipo"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:editable="false"
+                android:gravity="left"
+                android:background="@drawable/edittext_block"
+                android:id="@+id/tipoEquipoLetraISSSTE"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Modelo"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:editable="false"
+                android:gravity="left"
+                android:background="@drawable/edittext_block"
+                android:id="@+id/ModeloActualISSSTE"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Número de serie"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:editable="false"
+                android:gravity="left"
+                android:background="@drawable/edittext_block"
+                android:id="@+id/SerieActualISSSTE"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Observaciones"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/ObservacionesISSSTE"
+                android:background="@drawable/edittext_style"
+                android:hint="EJEM: La maquina funciona"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="GUARDAR"
+                android:textSize="20dp"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/btn_iniciar_sesion_style"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/BotonGuardarCambiosISSSTE"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+BREVE
+
+Aplicativo para captura de información de equipos de impresión.
+
+COMPLETA
+
+Aplicativo para captura de información, sincronización de datos y generación de formatos para apoyo en instalación de equipos de impresión y copiado de Grupo Estratec.

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <GridLayout
+                    android:columnCount="3"
+                    android:rowCount="3"
+                    android:alignmentMode="alignMargins"
+                    android:columnOrderPreserved="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:text="SERIE"
+                        android:textSize="17sp"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"/>
+
+                    <TextView
+                        android:id="@+id/textViewSubjectISSSTE"
+                        android:layout_width="200dp"
+                        android:layout_height="30dp"
+                        android:gravity="left"
+                        android:textStyle="bold"
+                        android:text="TextView"
+                        android:textSize="17sp"
+                        android:padding="5dp"
+                        android:textColor="@color/colorLog"/>
+
+                </GridLayout>
+
+
+
+                <GridLayout
+                    android:columnCount="3"
+                    android:rowCount="3"
+                    android:alignmentMode="alignMargins"
+                    android:columnOrderPreserved="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:text="MODELO"
+                        android:textSize="17sp"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"/>
+
+                    <TextView
+                        android:id="@+id/textViewSubjectFullFormISSSTE"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:textColor="@color/colorLog"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:textSize="17sp" />
+
+                </GridLayout>
+
+
+
+                <GridLayout
+                    android:columnCount="3"
+                    android:rowCount="3"
+                    android:alignmentMode="alignMargins"
+                    android:columnOrderPreserved="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/botonEditarDatosISSSTE"
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@color/colorLayerDark"
+                        android:text="@string/btn_editar_datos"
+                        android:paddingLeft="10dp"
+                        android:drawableLeft="@drawable/edit"
+                        android:textSize="15dp"
+                        android:textColor="#ffffff" />
+
+                    <Button
+                        android:id="@+id/botonFUAISSSTE"
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@color/colorLayerDark"
+                        android:text="@string/btn_fua"
+                        android:paddingLeft="10dp"
+                        android:drawableLeft="@drawable/pdf"
+                        android:textSize="15dp"
+                        android:textColor="#ffffff" />
+
+                    <Button
+                        android:id="@+id/botonEvidenciasISSSTE"
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@color/colorLayerDark"
+                        android:text="@string/btn_guardar"
+                        android:paddingLeft="10dp"
+                        android:drawableLeft="@drawable/camera"
+                        android:textSize="15dp"
+                        android:textColor="#ffffff" />
+
+                </GridLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

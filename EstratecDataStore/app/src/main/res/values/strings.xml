@@ -13,6 +13,12 @@
         <item>Tecnico</item>
     </string-array>
 
+    <string-array name="ClienteCaptura">
+        <item>Selecciona un cliente</item>
+        <item>SEDENA</item>
+        <item>ISSSTE</item>
+    </string-array>
+
     <!-- Seccion String Interfaz de sincronizacion-->
     <string name="textView_sincroniza">Sincroniza tus manuales asignados desde esta sección</string>
     <string name="btn_sincronizar">SINCRONIZAR</string>
