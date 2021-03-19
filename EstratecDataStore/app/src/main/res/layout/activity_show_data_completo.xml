@@ -10,7 +10,7 @@
     android:layout_marginRight="10dp"
     android:layout_marginBottom="10dp"
     android:orientation="horizontal"
-    tools:context=".ShowDataActivityCompleto">
+    tools:context=".sedena.ShowDataActivityCompleto">
 
     <SearchView
     android:id="@+id/searchViewCompleto"
