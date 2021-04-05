@@ -228,7 +228,7 @@ public class EditarDatosISSSTE extends AppCompatActivity {
 
         sqLiteHelperISSSTE = new SQLiteHelperISSSTE(this);
         sqLiteDatabase = sqLiteHelperISSSTE.getWritableDatabase();
-        sqLiteDatabase.execSQL("UPDATE " + SQLiteHelperISSSTE.TABLE_NAME + " SET Nombre='"+ nombreXML.getText() +"',"+  " Puesto='"+ puestoXML.getText() + "'," + " NoEmpleado='"+ noEmpleadoXML.getText() + "'," + " NoRed='"+ noRedXML.getText() + "'," + " Email='"+ emailXML.getText() + "'," + " Fecha='"+ fechacComplString  + "'," + " Observaciones='"+ ObservacionesXML.getText() + "'," + " Estatus='"+ estatusEditar + "'" +  " WHERE Serie='"+ serieExtra +"'");
+        sqLiteDatabase.execSQL("UPDATE " + SQLiteHelperISSSTE.TABLE_NAME + " SET Nombre='"+ nombreXML.getText() +"',"+  " Puesto='"+ puestoXML.getText() + "'," + " NoEmpleado='"+ noEmpleadoXML.getText() + "'," + " NoRed='"+ noRedXML.getText() + "'," + " Email='"+ emailXML.getText() + "'," + " Fecha='"+ fechacComplString  + "'," + " Piso='"+ pisoXML.getText()+"'," + " Observaciones='"+ ObservacionesXML.getText() + "'," + " Estatus='"+ estatusEditar + "'" +  " WHERE Serie='"+ serieExtra +"'");
         sqLiteDatabase.close();
 
 

@@ -222,8 +222,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/PisoISSSTE"
-                android:background="@drawable/edittext_block"
-                android:editable="false"/>
+                android:background="@drawable/edittext_style"
+                android:inputType="textCapWords|textAutoCorrect"
+                android:hint="EJEM: PLANTA BAJA ARCHIVO"/>
 
             <TextView
                 android:layout_width="match_parent"
